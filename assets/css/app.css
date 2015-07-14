@@ -5061,3 +5061,12 @@ blockquote p {
   float: none; }
 
 /*# sourceMappingURL=app.css.map */
+
+#sidebar {
+  max-width: 300px;
+  background-color: #eee;
+}
+#sidebar header {
+  margin-top: 50px;
+  font-size: 20px;
+}
