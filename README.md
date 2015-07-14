@@ -1,4 +1,4 @@
-# Readme
+# Google Trends Extension for New Tab
 
 1. Searhc in Chrome: ```chrome://settings/```
 2. Go to: ```Extensions```

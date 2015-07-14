@@ -2,13 +2,12 @@
 // specification, go here: https://developer.chrome.com/extensions/manifest
 {
   // START REQUIRED
-  "name": "Edna Extension",
-  "manifest_version": 2,
+  "name": "Google Trends in New Tab",
+  "manifest_version": 3,
   "version": "1.0.0",
   // END REQUIRED
 
-  "description": "A template Chrome extension that just has placeholders for a lot of the basic
-components to get you started.",
+  "description": "An app that creates the latest Google Trend data in every new tab.",
 
   "icons": {
         "16": "img/icon.png",
@@ -17,37 +16,18 @@ components to get you started.",
   },
 
   "browser_action": {
-    "default_popup": "popup.html",
-    "default_icon": "img/icon.png"
   },
 
   "chrome_url_overrides": {
       "newtab": "newtab.html"
   },
 
-  "content_scripts": [
-    {
-      "matches": ["http://*/*",
-                  "https://*/*"],
-      "js": [
-        "assets/js/contentscript.js"
-      ],
-
-      "css": [
-      ],
-
-      "run_at": "document_end"
-    }
-  ],
 
   "background": {
-    "scripts": [ "assets/js/background.js" ]
   },
 
   "permissions": [
-    "tabs",
-    "storage",
-    "contextMenus"
+    "tabs"
   ],
 
   "web_accessible_resources": [
