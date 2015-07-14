@@ -1,4 +1,4 @@
-![](https://github.com/rememberlenny/google-trends-new-tab-extension/blob/master/screen.png?raw=true)
+![](https://github.com/rememberlenny/google-trends-new-tab-extension/blob/master/newtab.gif?raw=true)
 
 # Google Trends Extension for New Tab
 
