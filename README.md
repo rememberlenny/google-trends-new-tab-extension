@@ -1,4 +1,4 @@
-!()['screen.png']
+![](https://github.com/rememberlenny/google-trends-new-tab-extension/blob/master/screen.png?raw=true)
 
 # Google Trends Extension for New Tab
 
