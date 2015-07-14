@@ -1,0 +1,58 @@
+// These are some things commonly added to the manifest. For a full description of the manifest
+// specification, go here: https://developer.chrome.com/extensions/manifest
+{
+  // START REQUIRED
+  "name": "Chrome Extension Template",
+  "manifest_version": 2,
+  "version": "1.0",
+  // END REQUIRED
+
+  "description": "A template Chrome extension that just has placeholders for a lot of the basic
+components to get you started.",
+
+  "icons": {
+        "16": "img/icon.png",
+        "48": "img/icon.png",
+        "128": "img/icon.png"
+  },
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "img/icon.png"
+  },
+
+  "chrome_url_overrides": {
+      "newtab": "newtab.html"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*",
+                  "https://*/*"],
+      "js": [
+        "js/libs/jquery-2.1.1.min.js",
+        "js/contentscript.js"
+      ],
+
+      "css": [
+        "css/contentscript.css"
+      ],
+      
+      "run_at": "document_end"
+    }
+  ],
+
+  "background": {
+    "scripts": [ "js/background.js" ]
+  },
+
+  "permissions": [
+    "tabs",
+    "storage",
+    "contextMenus"
+  ],
+
+  "web_accessible_resources": [
+    "img/*"
+  ]
+}
