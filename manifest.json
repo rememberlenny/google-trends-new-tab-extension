@@ -3,6 +3,7 @@
   "description": "An app that creates the latest Google Trend data in every new tab.",
   "version": "1.0.0",
   "manifest_version": 2,
+  "author": 'Leonard K. Bogdonoff',
   "icons": {
         "16": "img/icon.png",
         "48": "img/icon.png",
