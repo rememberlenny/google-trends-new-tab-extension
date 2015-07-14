@@ -1,35 +1,21 @@
-// These are some things commonly added to the manifest. For a full description of the manifest
-// specification, go here: https://developer.chrome.com/extensions/manifest
 {
-  // START REQUIRED
   "name": "Google Trends in New Tab",
-  "manifest_version": 3,
-  "version": "1.0.0",
-  // END REQUIRED
-
   "description": "An app that creates the latest Google Trend data in every new tab.",
-
+  "version": "1.0.0",
+  "manifest_version": 2,
   "icons": {
         "16": "img/icon.png",
         "48": "img/icon.png",
         "128": "img/icon.png"
   },
-
-  "browser_action": {
-  },
-
   "chrome_url_overrides": {
       "newtab": "newtab.html"
   },
-
-
   "background": {
   },
-
   "permissions": [
     "tabs"
   ],
-
   "web_accessible_resources": [
     "img/*"
   ]
