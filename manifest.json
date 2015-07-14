@@ -30,20 +30,25 @@ components to get you started.",
       "matches": ["http://*/*",
                   "https://*/*"],
       "js": [
-        "js/libs/jquery-2.1.1.min.js",
-        "js/contentscript.js"
+        "assets/js/libs/jquery-2.1.1.js",
+        "assets/js/angular.js"
+        "assets/js/app.js"
+        "assets/js/contentscript.js"
+        "assets/js/routes.js"
       ],
 
       "css": [
-        "css/contentscript.css"
+        "assets/css/app.css"
+        "assets/css/foundation-icons.css"
+        "assets/css/foundation-icons.woff"
       ],
-      
+
       "run_at": "document_end"
     }
   ],
 
   "background": {
-    "scripts": [ "js/background.js" ]
+    "scripts": [ "assets/js/background.js" ]
   },
 
   "permissions": [
