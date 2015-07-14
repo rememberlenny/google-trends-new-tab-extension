@@ -30,16 +30,16 @@ components to get you started.",
       "matches": ["http://*/*",
                   "https://*/*"],
       "js": [
-        "assets/js/libs/jquery-2.1.1.js",
-        "assets/js/angular.js",
-        "assets/js/app.js",
+        // "assets/js/libs/jquery-2.1.1.js",
+        // "assets/js/angular.js",
+        // "assets/js/app.js",
         "assets/js/contentscript.js",
-        "assets/js/routes.js"
+        // "assets/js/routes.js"
       ],
 
       "css": [
-        "assets/css/app.css",
-        "assets/css/foundation-icons.css"
+        // "assets/css/app.css",
+        // "assets/css/foundation-icons.css"
       ],
 
       "run_at": "document_end"
